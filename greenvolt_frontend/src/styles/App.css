@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: Poppins;
+  background-color: #12271f;
+  color: #d0d8d5;
+}
+
+.app {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #878787;
+  width: 300px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #137220;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.supplier-list {
+  margin-top: 20px;
+}
+
+.supplier-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #183622;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.supplier-card img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.supplier-card div {
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+}
+
+.supplier-card button {
+  background-color: #2e8336;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
