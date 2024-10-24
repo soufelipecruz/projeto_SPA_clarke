@@ -4,7 +4,7 @@
       {
         "src": "greenvolt_frontend/package.json",
         "use": "@vercel/static-build",
-        "config": { "distDir": "greenvolt_frontend/build" }
+        "config": { "distDir": "./greenvolt_frontend/build" }
       },
       {
         "src": "SPA_consumo_energia/api_consumo.py",
