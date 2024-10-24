@@ -70,5 +70,5 @@ def listar_fornecedores():
         logging.error("Erro inesperado: %s", e)
         return jsonify({'erro': 'Erro ao processar a solicitação.'}), 500
 
-
-app.run()
+if (__name__) == '__main__':
+    app.run()
